@@ -4,7 +4,7 @@ Compile with
 
 ```nim c christmas```
 
-The bottom triangle is a triangular hour/minute clock as proposed by [Jörg Pretz](https://arxiv.org/pdf/1006.1373.pdf) in 2010: the five lower rows (from top to bottom) are in units of 6 h, 2 h, 30 m, 6 m, and 1m, respectively.
+The bottom triangle is a triangular hour/minute clock as proposed by [Jörg Pretz](https://arxiv.org/pdf/1006.1373.pdf) in 2010: the five lower rows (from top to bottom) are in units of 6 h, 2 h, 30 m, 6 m, and 1 m, respectively.
 
 The upper triangle indicates seconds: First, there is a yellow seconds indicator as on the Berlin clock (blinks yellow when seconds are even), and the three following rows are in units of 20 s, 5 s, and 1 s, respectively.
 
