@@ -10,7 +10,7 @@ The upper triangle indicates seconds: First, there is a yellow seconds indicator
 
 At 12 am and 12 pm, the hours/minutes indicator at the bottom goes dark. So 12 o'clock is depicted as 0 hours.
 
-Window size is fixed at 900x500 pixels.
+Window size is fixed at 500x900 pixels.
 
 The time in the screenshot below is 10:28:10:
 
