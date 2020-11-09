@@ -8,10 +8,10 @@ The bottom triangle is a triangular hour/minute clock as proposed by [Jörg Pret
 
 The upper triangle indicates seconds: First, there is a yellow seconds indicator as on the [Berlin clock](https://en.wikipedia.org/wiki/Mengenlehreuhr) (blinks yellow when seconds are even), and the three following rows are in units of 20 s, 5 s, and 1 s, respectively.
 
-At 12 am and 12 pm, the hours/minutes indicator at the bottom goes dark. So 12 o'clock is depicted as 0 hours.
+The clock can display any time between 00:00:00 and 11:59:59, so at 12 am and 12 pm, it rolls over and the hours/minutes indicator at the bottom goes dark for a minute. In other words, 12 o'clock is depicted as 0 hours.
 
 Window size is fixed at 500x900 pixels.
 
-The time in the screenshot below is 10:28:10:
+The time in the screenshot below is 10:28:10.
 
 ![screenshot](https://github.com/mdoege/nim-christmas/raw/master/screenshot.png "nim-christmas screenshot")
