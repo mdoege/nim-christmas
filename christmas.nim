@@ -1,6 +1,6 @@
 ## A triangular ("christmas tree"-style) 12-hour clock in Nim using SDL2
 
-import sdl2, times, os
+import sdl2, times
 
 discard sdl2.init(INIT_EVERYTHING)
 
@@ -69,7 +69,7 @@ while runGame:
       render.fillRect(r)
 
   render.present
-  sleep(100)
+  delay(100)
 
 destroy render
 destroy window
